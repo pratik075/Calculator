@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: blue;
+
+}
+
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+input {
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin: 10px;
+    background-color: azure;
+    color: black;
+
+}
+
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputCalc {
+    width: 43%;
+    margin-top: 10px;
+    background-color: azure;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    cursor: pointer;
+}
